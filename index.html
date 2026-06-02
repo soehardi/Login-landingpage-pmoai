@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Responsive Animated Login Form</title>
+    <!-- Hubungkan file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-card">
+        <div class="title">Welcome Back</div>
+        <div class="subtitle">Masuk ke akun Anda</div>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <span class="input-icon">✉️</span>
+                <input type="email" id="email" placeholder="Alamat Email" required>
+            </div>
+
+            <div class="input-group">
+                <span class="input-icon">🔒</span>
+                <input type="password" id="password" placeholder="Kata Sandi" required>
+            </div>
+
+            <div class="options">
+                <label class="remember">
+                    <input type="checkbox" id="remember"> Ingat saya
+                </label>
+                <div class="forgot">
+                    <a href="#">Lupa password?</a>
+                </div>
+            </div>
+
+            <button type="submit" class="login-btn">MASUK</button>
+
+            <div class="signup-link">
+                Belum punya akun? <a href="#">Daftar sekarang</a>
+            </div>
+        </form>
+        <div style="text-align: center; margin-top: 24px;">
+            <div class="demo-message" id="demoInfo">
+                ✨ Demo: gunakan email@example.com / password: 12345678
+            </div>
+        </div>
+    </div>
+
+    <!-- Hubungkan file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
